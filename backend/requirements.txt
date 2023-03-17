@@ -1,0 +1,8 @@
+fastapi
+
+uvicorn == 0.21.0
+
+motor == 2.4.0
+
+pydantic
+pymongo
