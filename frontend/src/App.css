@@ -1,0 +1,71 @@
+.App {
+  padding-top: 20px;
+  background-color: rgb(242, 249, 242);
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  font-weight: bolder;
+  text-align: center;
+  width: 95%;
+  padding: 15px;
+  font-size: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(160, 248, 219);
+  border-radius: 15px;
+  border-style: double;
+  margin: 0 auto; /* center horizontally */
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center; /* center vertically */
+}
+
+.stack {
+  text-align: center;
+  width: 95%;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #faefb6;
+  border-radius: 15px;
+  border-style: double;
+  margin: 0 auto; /* center horizontally */
+  display: flex;
+  justify-content: center; /* center vertically */
+}
+
+.form-container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-in {
+  font-family: 'Courier New', Courier, monospace;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.Tasks {
+  padding: 5px;
+  margin: 10px;
+  border: darkcyan;
+}
+
+.copyright {
+  margin: 50px auto;
+  width: 95%;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  background-color: #c5e1df;
+  border-radius: 15px;
+  text-align: center;
+}
